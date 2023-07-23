@@ -9,6 +9,7 @@ const DashboardLayout = async ({
 }) => {
     const apiLimitCount = await getApiLimitCount();
     // const isPro = await checkSubscription();
+    const isPro = false;
 
     return (
         <div className="h-full relative">
